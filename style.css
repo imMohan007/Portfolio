@@ -1,0 +1,124 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', serif;
+  line-height: 2;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+header {
+  background: #1f1f1f;
+  padding: 40px 0;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #00ffd5;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+nav {
+  background: #282828;
+  padding: 15px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #00ffd5;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+}
+
+section {
+  margin-top: 40px;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #00ffd5;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.skills-list li {
+  background-color: #222;
+  border: 1px solid #00ffd5;
+  color: #00ffd5;
+  padding: 10px 15px;
+  border-radius: 6px;
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.skills-list li:hover {
+  background-color: #00ffd5;
+  color: #121212;
+  box-shadow: 0 0 15px #00ffd5, 0 0 25px #00ffd5;
+  transform: scale(1.05);
+}
+
+footer {
+  background: #1f1f1f;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  border-top: 1px solid #444;
+}
+
+footer p {
+  color: #888;
+  font-size: 0.95rem;
+}
+
+a {
+  color: #00ffd5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
